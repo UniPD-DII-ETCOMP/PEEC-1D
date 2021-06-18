@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="nfc.png" width="486.4">
+</p>
+
 # PEEC 1D 
 
 This directory contains a PEEC code, based on stick elements, for the solution of full-wave electromagnetic problems.
