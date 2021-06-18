@@ -1,0 +1,2 @@
+Problem description:
+NFC antenna fed by two opposite sign current sources.

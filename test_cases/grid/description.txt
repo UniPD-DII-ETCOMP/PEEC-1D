@@ -1,0 +1,2 @@
+Problem description:
+1m x 1m square grid excited by voltage generator connected to two opposite corners.

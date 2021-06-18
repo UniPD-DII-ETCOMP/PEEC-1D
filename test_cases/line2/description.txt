@@ -1,0 +1,3 @@
+Problem description:
+1m long open two-wire line. Each wire excited by a voltage generator on one end and left open on the other end. 
+The two voltage generators are connected to a single external lumped node.
