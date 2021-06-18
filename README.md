@@ -18,12 +18,12 @@ In this code only conductive media modeled by thin 1D (a.k.a "stick") elements a
 
 # Description
  
-* "MAIN_PEEC_1D.m" is the main file you must run to start the code.                      
+"MAIN_PEEC_1D.m" is the main file you must run to start the code.                      
                                                                                                         
-* All user-settable quantities, e.g. frequency and resistivity, are contained in the block identified by the 
-* BEGIN USER SETTINGS / END USER SETTINGS comments.
+All user-settable quantities, e.g. frequency and resistivity, are contained in the block identified by the 
+BEGIN USER SETTINGS / END USER SETTINGS comments.
 
-* At the end of the simulation, variable (struct) "sol" contains useful quantities, i.e.:
+At the end of the simulation, variable (struct) "sol" contains useful quantities, i.e.:
 * sol.I_obj = currents in each stick element of the mesh
 * sol.U_obj = electric potentials in each node of the mesh
 * sol.Q = electric charges in each node of the mesh
