@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="image.png" width="486.4">
+	<img src="im.png" width="486.4">
 </p>
 
 # PEEC 1D 
