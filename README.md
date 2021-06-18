@@ -1,9 +1,9 @@
 # PEEC 1D 
 
 This directory contains a PEEC code, based on stick elements, for the solution of full-wave electromagnetic problems.
-It can be use for research and academic purposes.
+It can be used for research and academic purposes.
 
-An optimized, parallel (OpenMP), fortran90 version of this code has been used in
+Pptimized, parallel (OpenMP), fortran90, general versions of this code have been used in, e.g.,
 
 * [R. Torchio, "A Volume PEEC Formulation Based on the Cell Method for Electromagnetic Problems From Low to High Frequency," in IEEE Transactions on Antennas and Propagation, vol. 67, no. 12, pp. 7452-7465, Dec. 2019, doi: 10.1109/TAP.2019.2927789](https://ieeexplore.ieee.org/document/8764572)
 * [P. Baumgartner, T. Bauernfeind, O. Bíró, A. Hackl, C. Magele, W. Renhart and Riccardo Torchio, "Multi-Objective Optimization of Yagi-Uda Antenna Applying Enhanced Firefly Algorithm With Adaptive Cost Function," in IEEE Transactions on Magnetics. doi: 10.1109/TMAG.2017.2764319](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8168407&isnumber=4479871)
@@ -18,20 +18,20 @@ In this code only conductive media modeled by thin 1D (a.k.a "stick") elements a
 
 # Description
  
-"MAIN_PEEC_1D.m" is the main file you must run to start the code.                      
+* "MAIN_PEEC_1D.m" is the main file you must run to start the code.                      
                                                                                                         
-All user-settable quantities, e.g. frequency and resistivity, are contained in the block identified by the 
-BEGIN USER SETTINGS / END USER SETTINGS comments.
+* All user-settable quantities, e.g. frequency and resistivity, are contained in the block identified by the 
+* BEGIN USER SETTINGS / END USER SETTINGS comments.
 
-At the end of the simulation, variable (struct) "sol" contains useful quantities, i.e.:
-sol.I_obj = currents in each stick element of the mesh
-sol.U_obj = electric potentials in each node of the mesh
-sol.Q = electric charges in each node of the mesh
-sol.I_app = currents in each lumped branch
-sol.U_app = electric potentials in each lumped node
-sol.Etot   = total (scattered+external) electric field in target points 
-sol.Esca   = scattered electric field in target points 
-sol.Eext   = external electric field in target points 
+* At the end of the simulation, variable (struct) "sol" contains useful quantities, i.e.:
+* sol.I_obj = currents in each stick element of the mesh
+* sol.U_obj = electric potentials in each node of the mesh
+* sol.Q = electric charges in each node of the mesh
+* sol.I_app = currents in each lumped branch
+* sol.U_app = electric potentials in each lumped node
+* sol.Etot   = total (scattered+external) electric field in target points 
+* sol.Esca   = scattered electric field in target points 
+* sol.Eext   = external electric field in target points 
 -------------------------------------------------------------------
 
 Available test cases
