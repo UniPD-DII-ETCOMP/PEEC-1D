@@ -9,10 +9,12 @@ It can be used for research and academic purposes.
 
 Pptimized, parallel (OpenMP), fortran90, general versions of this code have been used in, e.g.,
 
+* [R. Torchio et al.,"A 3-D PEEC Formulation Based on the Cell Method for Full-Wave Analyses with Conductive, Dielectric, and Magnetic Media," in IEEE Transactions on Magnetics. doi 10.1109/TMAG.2017.2750319](https://ieeexplore.ieee.org/document/8168416)
 * [R. Torchio, "A Volume PEEC Formulation Based on the Cell Method for Electromagnetic Problems From Low to High Frequency," in IEEE Transactions on Antennas and Propagation, vol. 67, no. 12, pp. 7452-7465, Dec. 2019, doi: 10.1109/TAP.2019.2927789](https://ieeexplore.ieee.org/document/8764572)
-* [P. Baumgartner, T. Bauernfeind, O. Bíró, A. Hackl, C. Magele, W. Renhart and Riccardo Torchio, "Multi-Objective Optimization of Yagi-Uda Antenna Applying Enhanced Firefly Algorithm With Adaptive Cost Function," in IEEE Transactions on Magnetics. doi: 10.1109/TMAG.2017.2764319](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8168407&isnumber=4479871)
-* [T. Bauernfeind, P. Baumgartner, O. Bíró, A. Hackl, C. Magele, W. Renhart and Riccardo Torchio, "Multi-Objective Synthesis of NFC-Transponder Systems Based on PEEC Method," in IEEE Transactions on Magnetics. doi: 10.1109/TMAG.2017.2771366](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8125565&isnumber=4479871)
+* [P. Baumgartner et al., "Multi-Objective Optimization of Yagi-Uda Antenna Applying Enhanced Firefly Algorithm With Adaptive Cost Function," in IEEE Transactions on Magnetics. doi: 10.1109/TMAG.2017.2764319](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8168407&isnumber=4479871)
+* [T. Bauernfeind et al., "Multi-Objective Synthesis of NFC-Transponder Systems Based on PEEC Method," in IEEE Transactions on Magnetics. doi: 10.1109/TMAG.2017.2771366](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8125565&isnumber=4479871)
 * [R. Torchio, P. Bettini and P. Alotto, "PEEC-Based Analysis of Complex Fusion Magnets During Fast Voltage Transients With H-Matrix Compression," in IEEE Transactions on Magnetics. doi: 10.1109/TMAG.2017.2651638](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7814211&isnumber=7934107)
+* [P. Baumgartner et al.,"Synthesis of NFC antenna structure under multi-card condition," in Applied Computational Electromagnetics Society Journal. doi 10.1109/TMAG.2017.2750319](https://ieeexplore.ieee.org/document/8168416)
 
 See the above references for more details and consider citing it.
 
