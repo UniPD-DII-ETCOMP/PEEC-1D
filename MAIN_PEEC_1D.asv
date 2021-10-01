@@ -4,7 +4,7 @@ close all
 restoredefaultpath
 %% BEGIN USER SETTINGS
 % problem definition
-test_case_dir = 'nfc1';
+test_case_dir = 'ant1';
 plotflag = 1; %graphics postprocessing flag (1 = yes, 0 = no)
 freq = 3e8; % set the value of the frequency [Hz]
 radius = 0.1e-3; % set the radius of the wires  [m]

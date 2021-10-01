@@ -11,11 +11,11 @@ long=1; % length of the two_wire_line [m]
 dist=2e-3; % distance between the two lines [m]
 nsp=100; % number of points
 NN1=zeros(3,nsp);
-NN1(1,:)=linspace(0,long,nsp);
-NN1(3,:)=dist*0.5;
+NN1(1,:)=linspace(1e-3,long,nsp);
+NN1(3,:)=0;
 NN2=zeros(3,nsp);
-NN2(1,:)=linspace(0,long,nsp);
-NN2(3,:)=-dist*0.5;
+NN2(1,:)=linspace(-1e-3,-long,nsp);
+NN2(3,:)=0;
 NN=[NN1,NN2];
 % generate below variable GG (2,nSticks) which is the edges-nodes incidence matrix
 G=[1:nsp-1;2:nsp];
