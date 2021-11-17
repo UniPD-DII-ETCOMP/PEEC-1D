@@ -7,7 +7,7 @@
 This directory contains a PEEC code, based on stick elements, for the solution of full-wave electromagnetic problems.
 It can be used for research and academic purposes.
 
-Pptimized, parallel (OpenMP), fortran90, general versions of this code have been used in, e.g.,
+Optimized, parallel (OpenMP), fortran90, general versions of this code have been used in, e.g.,
 
 * [R. Torchio et al.,"A 3-D PEEC Formulation Based on the Cell Method for Full-Wave Analyses with Conductive, Dielectric, and Magnetic Media," in IEEE Transactions on Magnetics. doi 10.1109/TMAG.2017.2750319](https://ieeexplore.ieee.org/document/8168416)
 * [R. Torchio, "A Volume PEEC Formulation Based on the Cell Method for Electromagnetic Problems From Low to High Frequency," in IEEE Transactions on Antennas and Propagation, vol. 67, no. 12, pp. 7452-7465, Dec. 2019, doi: 10.1109/TAP.2019.2927789](https://ieeexplore.ieee.org/document/8764572)
